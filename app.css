@@ -1,0 +1,188 @@
+span {
+    color: #F2542D;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28260, 84, 45, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar .navbar-toggler {
+    border: 1px solid #F2542D;
+}
+
+.sean {
+    background-color: black;
+}
+
+#trash {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    color: #83c5be;
+    margin-left: 30px;
+    transition: all 0.5s;
+}
+
+#trash:hover {
+    text-decoration: underline;
+    text-decoration-color: #83c5be;
+    border-radius: 10px;
+}
+
+.intro {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.block {
+    width: 60%;
+    height: 400px;
+}
+
+.mynameis {
+    color: #F2542D;
+    width: 28%;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+
+
+.fullname {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    height: 100px;
+    color: #F2542D;
+
+}
+
+.full2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: #F2542D;
+    opacity: 0.5;
+}
+
+.frontend {
+    height: 500px;
+    background-color: #F2542D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.what {
+    color: black;
+}
+
+.sec1 {
+    width: 300px;
+    height: 400px;
+    color: white;
+    background-color: white;
+    margin-left: 100px;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    transition: all 0.5s;
+}
+
+.sec1:hover {
+    background-color: #F2542D;
+    margin-bottom: 10px;
+}
+
+.designer {
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+}
+
+.sec2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.developer {
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+}
+
+.sec3 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-right: 100px;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.creative {
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+}
+
+
+@media (max-width: 760px) {
+
+    #trash {
+        font-size: 20px;
+    }
+
+    .sean {
+        width: 100%;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .block {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+    .mynameis {
+        width: 100%;
+    }
+
+    .fullname {
+        height: 250px;
+        line-height: 90px;
+    }
+
+    .frontend {
+        display: flex;
+        flex-direction: column;
+        height: 1600px;
+    }
+
+    .sec1 {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .sec3 {
+        margin-right: 0;
+    }
+}
